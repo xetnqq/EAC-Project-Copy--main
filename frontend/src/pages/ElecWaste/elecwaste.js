@@ -83,8 +83,8 @@ export class ElecWaste extends Component {
       <img src="./img/Battery.png" alt="Item 2 icon" className="item-icon" />
       <div className="item-quantity">X4</div>
     </div>
-    <div class="item-details">
-      <div class="item-name">Чепуха1</div>
+    <div className="item-details">
+      <div className="item-name">Чепуха1</div>
       <img src="./img/UserPhotoS.png" alt="Item 2 details" className="item-icon" />
     </div>
   </div>
