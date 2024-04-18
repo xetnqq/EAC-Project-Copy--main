@@ -12,7 +12,11 @@ import Community from "./pages/Community/community";
 import Share from "./pages/Share/share";
 import Notifications from "./pages/Notifications/notifications";
 import ElecWaste from "./pages/ElecWaste/elecwaste";
-
+import PlastWaste from "./pages/PlastWaste/plastwaste";
+import SolidWaste from "./pages/SolidWaste/solidwaste";
+import RecycleWaste from "./pages/RecycleWaste/recyclewaste";
+import Help from "./pages/Help/help";
+import Privacy from "./pages/Privacy/privacy";
 /*
 import React, {useState, useEffect} from 'react'
 
@@ -60,6 +64,11 @@ class App extends React.Component {
           <Route path='/share' Component={Share}/>
           <Route path="/notifications" Component={Notifications}/>
           <Route path="/elecwaste" Component={ElecWaste}/>
+          <Route path="/plastwaste" Component={PlastWaste}/>
+          <Route path="/solidwaste" Component={SolidWaste}/>
+          <Route path="/recyclewaste" Component={RecycleWaste}/>
+          <Route path="/help" Component={Help}/>
+          <Route path="/privacy" Component={Privacy}/>
         </Routes>
       </Router>
     </div>

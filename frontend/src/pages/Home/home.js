@@ -29,18 +29,18 @@ export class Home extends Component {
           <div className='textelem'>Organic Waste</div>
         </div> </a>
 
-      <a href="/bottle-sorting" className='text'>   <div className='section'>
+      <a href="/plastwaste" className='text'>   <div className='section'>
           <img src='./img/Bottle.png' alt='' className='icons'/>
           <div className='textelem'>Plastics</div>
         </div> </a>
 
-      <a href="/waste" className='text'>   <div className='section'>
+      <a href="/solidwaste" className='text'>   <div className='section'>
           <img src='./img/Waste.png' alt='' className='icons'/>
           <div className='textelem'>Solid Waste</div>
         </div> </a>
 
-      <a href="/recycle" className='text'>   <div className='section'>
-          <img src='./img/Recycle.png' alt='' className='icons'/>
+      <a href="/recyclewaste" className='text'>   <div className='section'>
+          <img src='./img/BrokenBottle.png' alt='' className='icons'/>
           <div className='textelem'>Recyclable Waste</div>
         </div> </a>
       </div>
